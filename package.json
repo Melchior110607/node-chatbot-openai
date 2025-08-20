@@ -1,0 +1,15 @@
+{
+  "name": "node-chatbot-openai",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js 'Bonjour, présente-toi.'",
+    "chat": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.56.0"
+  }
+}
+
+
